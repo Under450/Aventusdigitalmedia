@@ -334,7 +334,7 @@ function App() {
               <ul className="space-y-2">
                 <li>hello@aventusdigital.co.uk</li>
                 <li>+44 121 384 1333</li>
-                <li>London, United Kingdom</li>
+                <li>Birmingham, England</li>
               </ul>
             </div>
           </div>
