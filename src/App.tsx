@@ -298,7 +298,7 @@ function App() {
             <a href="mailto:hello@aventusdigital.co.uk" className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all transform font-medium shadow-[0_6px_0_0_rgba(217,119,6,0.3)] hover:shadow-[0_3px_0_0_rgba(217,119,6,0.3)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
               Get in Touch
             </a>
-            <a href="tel:01213841333" className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all font-medium shadow-[0_6px_0_0_rgba(255,255,255,0.2)] hover:shadow-[0_3px_0_0_rgba(255,255,255,0.2)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
+            <a href="tel:+441213841333" className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all font-medium shadow-[0_6px_0_0_rgba(255,255,255,0.2)] hover:shadow-[0_3px_0_0_rgba(255,255,255,0.2)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
               Call Us Today
             </a>
           </div>
@@ -333,7 +333,7 @@ function App() {
               <h3 className="text-white font-bold mb-4">Contact</h3>
               <ul className="space-y-2">
                 <li>hello@aventusdigital.co.uk</li>
-                <li>0121 384 1333</li>
+                <li>+44 121 384 1333</li>
                 <li>London, United Kingdom</li>
               </ul>
             </div>
