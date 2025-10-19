@@ -1,5 +1,6 @@
-import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare, Play } from 'lucide-react';
+import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare } from 'lucide-react';
 import { useState } from 'react';
+import AventusLogo from './components/AventusLogo';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,12 +12,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center">
-                  <Play className="w-6 h-6 text-white" fill="white" />
-                </div>
-                <span className="text-2xl font-bold text-slate-900">Aventus</span>
-              </div>
+              <AventusLogo className="h-10" />
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -310,11 +306,8 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center">
-                  <Play className="w-6 h-6 text-white" fill="white" />
-                </div>
-                <span className="text-2xl font-bold text-white">Aventus</span>
+              <div className="mb-4">
+                <AventusLogo className="h-10" />
               </div>
               <p className="text-slate-400 mb-4 max-w-sm">
                 Empowering creators and digital personalities to reach their full potential through strategic media marketing.
