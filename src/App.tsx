@@ -326,7 +326,7 @@ function App() {
               <ul className="space-y-2">
                 <li>info@aventusdigital.co.uk</li>
                 <li>+44 121 384 1333</li>
-                <li>Birmingham, England</li>
+                <li>England, United Kingdom</li>
               </ul>
             </div>
           </div>
