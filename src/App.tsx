@@ -349,7 +349,7 @@ function App() {
         href="https://wa.me/441213841333"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#20BD5A] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 z-50 group"
+        className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#20BD5A] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 z-50 group animate-bounce-subtle"
         aria-label="Chat on WhatsApp"
       >
         <MessageCircle className="w-6 h-6" />
