@@ -1,4 +1,4 @@
-import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare } from 'lucide-react';
+import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 
 function App() {
@@ -343,6 +343,20 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/441213841333"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#20BD5A] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 z-50 group"
+        aria-label="Chat on WhatsApp"
+      >
+        <MessageCircle className="w-6 h-6" />
+        <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-slate-900 text-white px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+          Chat on WhatsApp
+        </span>
+      </a>
     </div>
   );
 }
