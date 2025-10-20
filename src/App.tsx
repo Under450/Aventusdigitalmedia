@@ -290,7 +290,7 @@ function App() {
             Join hundreds of successful creators who have elevated their brands with Aventus Digital Media.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:hello@aventusdigital.co.uk" className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all transform font-medium shadow-[0_6px_0_0_rgba(217,119,6,0.3)] hover:shadow-[0_3px_0_0_rgba(217,119,6,0.3)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
+            <a href="mailto:info@aventusdigital.co.uk" className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all transform font-medium shadow-[0_6px_0_0_rgba(217,119,6,0.3)] hover:shadow-[0_3px_0_0_rgba(217,119,6,0.3)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
               Get in Touch
             </a>
             <a href="tel:+441213841333" className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all font-medium shadow-[0_6px_0_0_rgba(255,255,255,0.2)] hover:shadow-[0_3px_0_0_rgba(255,255,255,0.2)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
@@ -324,7 +324,7 @@ function App() {
             <div>
               <h3 className="text-white font-bold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li>hello@aventusdigital.co.uk</li>
+                <li>info@aventusdigital.co.uk</li>
                 <li>+44 121 384 1333</li>
                 <li>Birmingham, England</li>
               </ul>
