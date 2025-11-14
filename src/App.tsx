@@ -1,6 +1,5 @@
-import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare } from 'lucide-react';
+import { Menu, X, ChevronRight, Users, TrendingUp, Award, MessageSquare, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
-import AventusLogo from './components/AventusLogo';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,7 +11,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <AventusLogo className="h-10" />
+              <span className="text-2xl font-bold text-slate-900">AVENTUS</span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -291,7 +290,7 @@ function App() {
             Join hundreds of successful creators who have elevated their brands with Aventus Digital Media.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:hello@aventusdigital.co.uk" className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all transform font-medium shadow-[0_6px_0_0_rgba(217,119,6,0.3)] hover:shadow-[0_3px_0_0_rgba(217,119,6,0.3)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
+            <a href="mailto:info@aventusdigital.co.uk" className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all transform font-medium shadow-[0_6px_0_0_rgba(217,119,6,0.3)] hover:shadow-[0_3px_0_0_rgba(217,119,6,0.3)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
               Get in Touch
             </a>
             <a href="tel:+441213841333" className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all font-medium shadow-[0_6px_0_0_rgba(255,255,255,0.2)] hover:shadow-[0_3px_0_0_rgba(255,255,255,0.2)] hover:translate-y-[3px] active:shadow-none active:translate-y-[6px]">
@@ -307,7 +306,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
               <div className="mb-4">
-                <AventusLogo className="h-10" />
+                <span className="text-2xl font-bold text-white">AVENTUS</span>
               </div>
               <p className="text-slate-400 mb-4 max-w-sm">
                 Empowering creators and digital personalities to reach their full potential through strategic media marketing.
@@ -325,17 +324,39 @@ function App() {
             <div>
               <h3 className="text-white font-bold mb-4">Contact</h3>
               <ul className="space-y-2">
-                <li>hello@aventusdigital.co.uk</li>
+                <li>info@aventusdigital.co.uk</li>
                 <li>+44 121 384 1333</li>
-                <li>Birmingham, England</li>
+                <li>England, United Kingdom</li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-slate-800 pt-8 text-center">
-            <p>&copy; 2025 Aventus Digital Media. All rights reserved.</p>
+          <div className="border-t border-slate-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p>&copy; 2025 Aventus Digital Media. All rights reserved.</p>
+              <div className="flex gap-6 text-sm">
+                <a href="/legal/terms-of-use.html" className="hover:text-white transition-colors">Terms of Use</a>
+                <a href="/legal/privacy-policy.html" className="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="/legal/disclaimer.html" className="hover:text-white transition-colors">Disclaimer</a>
+                <a href="/legal/company-info.html" className="hover:text-white transition-colors">Company Info</a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Floating Button */}
+      <a
+        href="https://wa.me/441213841333"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#20BD5A] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 z-50 group animate-bounce-subtle"
+        aria-label="Chat on WhatsApp"
+      >
+        <MessageCircle className="w-6 h-6" />
+        <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-slate-900 text-white px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+          Chat on WhatsApp
+        </span>
+      </a>
     </div>
   );
 }
